@@ -203,10 +203,10 @@
 			isa = PBXGroup;
 			children = (
 				D3BF6E351CBB46AC00615B29 /* Controller */,
-				D3BF6E381CBB46AC00615B29 /* HttpServers.h */,
-				D3BF6E391CBB46AC00615B29 /* HttpServers.m */,
 				D3BF6E3A1CBB46AC00615B29 /* Model */,
 				D3BF6E3D1CBB46AC00615B29 /* View */,
+				D3BF6E381CBB46AC00615B29 /* HttpServers.h */,
+				D3BF6E391CBB46AC00615B29 /* HttpServers.m */,
 			);
 			path = "Home(首页)";
 			sourceTree = "<group>";
