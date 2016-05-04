@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		59EC49B166CD9C599F13A692 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB411A9640CA81C8C0E7AF98 /* libPods.a */; };
+		D35785591CD8AD6400BFFFF7 /* AppDelegate+AppService.m in Sources */ = {isa = PBXBuildFile; fileRef = D35785581CD8AD6400BFFFF7 /* AppDelegate+AppService.m */; };
+		D357855C1CD8ADCB00BFFFF7 /* AppDelegate+AppLifeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = D357855B1CD8ADCB00BFFFF7 /* AppDelegate+AppLifeCircle.m */; };
+		D357855F1CD8ADEB00BFFFF7 /* AppDelegate+RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = D357855E1CD8ADEB00BFFFF7 /* AppDelegate+RootController.m */; };
+		D35785671CD997C200BFFFF7 /* BYXRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35785661CD997C200BFFFF7 /* BYXRootViewController.m */; };
 		D38F0A5D1CB645C400AAF251 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D38F0A5C1CB645C400AAF251 /* main.m */; };
 		D38F0A601CB645C400AAF251 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D38F0A5F1CB645C400AAF251 /* AppDelegate.m */; };
 		D38F0A681CB645C400AAF251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38F0A671CB645C400AAF251 /* Assets.xcassets */; };
@@ -44,6 +48,15 @@
 		3632211F76E9D6F3E2079046 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		97ACF9A371CEFBB4C99B4AF5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CB411A9640CA81C8C0E7AF98 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35785571CD8AD6400BFFFF7 /* AppDelegate+AppService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AppService.h"; sourceTree = "<group>"; };
+		D35785581CD8AD6400BFFFF7 /* AppDelegate+AppService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AppService.m"; sourceTree = "<group>"; };
+		D357855A1CD8ADCB00BFFFF7 /* AppDelegate+AppLifeCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AppLifeCircle.h"; sourceTree = "<group>"; };
+		D357855B1CD8ADCB00BFFFF7 /* AppDelegate+AppLifeCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AppLifeCircle.m"; sourceTree = "<group>"; };
+		D357855D1CD8ADEB00BFFFF7 /* AppDelegate+RootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+RootController.h"; sourceTree = "<group>"; };
+		D357855E1CD8ADEB00BFFFF7 /* AppDelegate+RootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+RootController.m"; sourceTree = "<group>"; };
+		D35785611CD8B10300BFFFF7 /* BYXPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYXPrefixHeader.pch; sourceTree = "<group>"; };
+		D35785651CD997C200BFFFF7 /* BYXRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYXRootViewController.h; sourceTree = "<group>"; };
+		D35785661CD997C200BFFFF7 /* BYXRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYXRootViewController.m; sourceTree = "<group>"; };
 		D38F0A581CB645C400AAF251 /* BYXExtend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BYXExtend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38F0A5C1CB645C400AAF251 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D38F0A5E1CB645C400AAF251 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,6 +124,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D35785601CD8B0EA00BFFFF7 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D35785611CD8B10300BFFFF7 /* BYXPrefixHeader.pch */,
+				D35785651CD997C200BFFFF7 /* BYXRootViewController.h */,
+				D35785661CD997C200BFFFF7 /* BYXRootViewController.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		D38F0A4F1CB645C400AAF251 = {
 			isa = PBXGroup;
 			children = (
@@ -136,12 +159,19 @@
 		D38F0A5A1CB645C400AAF251 /* BYXExtend */ = {
 			isa = PBXGroup;
 			children = (
+				D38F0A5E1CB645C400AAF251 /* AppDelegate.h */,
+				D38F0A5F1CB645C400AAF251 /* AppDelegate.m */,
+				D35785571CD8AD6400BFFFF7 /* AppDelegate+AppService.h */,
+				D35785581CD8AD6400BFFFF7 /* AppDelegate+AppService.m */,
+				D357855A1CD8ADCB00BFFFF7 /* AppDelegate+AppLifeCircle.h */,
+				D357855B1CD8ADCB00BFFFF7 /* AppDelegate+AppLifeCircle.m */,
+				D357855D1CD8ADEB00BFFFF7 /* AppDelegate+RootController.h */,
+				D357855E1CD8ADEB00BFFFF7 /* AppDelegate+RootController.m */,
+				D35785601CD8B0EA00BFFFF7 /* Config */,
 				D3BF6E241CBB46AC00615B29 /* Expand(拓展) */,
 				D3BF6E331CBB46AC00615B29 /* Main(主要） */,
 				D3BF6E3F1CBB46AC00615B29 /* Resource(资源) */,
 				D3BF6E401CBB46AC00615B29 /* Vender(第三方) */,
-				D38F0A5E1CB645C400AAF251 /* AppDelegate.h */,
-				D38F0A5F1CB645C400AAF251 /* AppDelegate.m */,
 				D38F0A671CB645C400AAF251 /* Assets.xcassets */,
 				D38F0A691CB645C400AAF251 /* LaunchScreen.storyboard */,
 				D38F0A6C1CB645C400AAF251 /* Info.plist */,
@@ -572,13 +602,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35785671CD997C200BFFFF7 /* BYXRootViewController.m in Sources */,
 				D3BF6E461CBB46AC00615B29 /* HttpServers.m in Sources */,
 				D38F0A601CB645C400AAF251 /* AppDelegate.m in Sources */,
 				D3BF6E5B1CBB49B800615B29 /* BYXHttpTool.m in Sources */,
+				D35785591CD8AD6400BFFFF7 /* AppDelegate+AppService.m in Sources */,
 				D38F0A5D1CB645C400AAF251 /* main.m in Sources */,
+				D357855F1CD8ADEB00BFFFF7 /* AppDelegate+RootController.m in Sources */,
 				D3BF6E5C1CBB49B800615B29 /* BYXServiceBaseTool.m in Sources */,
 				D3BF6E5A1CBB49B800615B29 /* BYXConfigTool.m in Sources */,
 				D3BF6E471CBB46AC00615B29 /* UserInfoModel.m in Sources */,
+				D357855C1CD8ADCB00BFFFF7 /* AppDelegate+AppLifeCircle.m in Sources */,
 				D3BF6E451CBB46AC00615B29 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -713,6 +747,7 @@
 			baseConfigurationReference = 97ACF9A371CEFBB4C99B4AF5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = BYXExtend/Config/BYXPrefixHeader.pch;
 				INFOPLIST_FILE = BYXExtend/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.byx.BYXExtend;
@@ -725,6 +760,7 @@
 			baseConfigurationReference = 3632211F76E9D6F3E2079046 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = BYXExtend/Config/BYXPrefixHeader.pch;
 				INFOPLIST_FILE = BYXExtend/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.byx.BYXExtend;

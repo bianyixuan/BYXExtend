@@ -1,0 +1,28 @@
+//
+//  BYXPrefixHeader.pch
+//  BYXExtend
+//
+//  Created by bianyixuan on 16/5/3.
+//  Copyright © 2016年 jzsec-byx. All rights reserved.
+//
+
+#ifndef BYXPrefixHeader_pch
+#define BYXPrefixHeader_pch
+
+//base
+#import "BYXServiceBaseTool.h"
+#import "BYXRootViewController.h"
+
+//Macros
+#import "AppMacro.h"
+#import "HttpMacro.h"
+#import "NotificationMacro.h"
+#import "UtilsMacro.h"
+#import "VendorMacro.h"
+
+
+
+//首页
+#import "HomeViewController.h"
+
+#endif /* BYXPrefixHeader_pch */
